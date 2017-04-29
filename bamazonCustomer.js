@@ -64,7 +64,7 @@ connection.query("SELECT item_id, product_name, price FROM products", function(e
                             }], function(err) {
                                 if (err) throw err;
                                 connection.end();
-                            }) 
+                            })
                         })
                     })
 

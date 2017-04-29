@@ -24,6 +24,7 @@ We're storing data in MySQL for this project.
     * View Low Inventory
     * Add to Inventory
     * Add New Product
+    	* Note: New departments created via this command will get a default overhead_costs setting of $500. When a supervisor creates a new department (see below), they can set a unique overhead_cost.
 
 Use the arrow keys to make a selection and follow the prompts!
 
@@ -36,6 +37,7 @@ As a supervisor, you have even more access to our storefront data, including a p
    * View Product Sales by Department
    * Create New Department
 
-2. A new `total_profit` column will calculate and display the difference between `over_head_costs` and `total_sales` (although `total_profit` is not be stored in any database -- so don't go looking for it!).
+2. A new `total_profit` column SHOULD calculate and display the difference between `over_head_costs` and `total_sales` (although `total_profit` is not stored in any database -- so don't go looking for it!). 
+	* I'm having trouble with this last step! Hope to resolve in next hour. :)
 
 ### Happy shopping!
